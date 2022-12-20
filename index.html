@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div>
+      <h2>Mad Lib Fun</h2>
+    <label id="name" for="userName">A person's name:</label>
+    <input type="text" id="userName" name="userName"><br><br><br>
+
+    <label for="goodAdj1">A positive adjective:</label>
+    <input type="text" id="goodAdj1" name="goodAdj1"><br><br>
+    <label for="goodAdj2">Another positive adjective:</label>
+    <input type="text" id="goodAdj2" name="goodAdj2"><br><br>
+    <label for="goodAdj3">One more positive adjective:</label>
+    <input type="text" id="goodAdj3" name="goodAdj3"><br><br>
+<!--     adding 4th & 5th one here -->
+    <label for="goodAdj4">Fourth positive adjective:</label>
+    <input type="text" id="goodAdj4" name="goodAdj4"><br><br>
+    <label for="goodAdj5">Fifth positive adjective:</label>
+    <input type="text" id="goodAdj5" name="goodAdj5"><br><br><br>
+      
+    <label class="badAdj" for="badAdj1">A negative adjective:</label>
+    <input type="text" id="badAdj1" name="badAdj1"><br><br>
+    <label class="badAdj" for="badAdj2">Another negative adjective:</label>
+    <input type="text" id="badAdj2" name="badAdj2"><br><br>
+    <label  class="badAdj" for="badAdj3">One more negative adjective:</label>
+    <input type="text" id="badAdj3" name="badAdj3"><br><br>
+
+    <label class="badAdj" for="badAdj4">Fourth negative adjective:</label>
+    <input type="text" id="badAdj4" name="badAdj4"><br><br>
+    <label class="badAdj" for="badAdj5">Fifth negative adjective:</label>
+    <input type="text" id="badAdj5" name="badAdj5"><br><br><br>
+      
+    <button class="submit-button" onclick="startMadLib()">Start MadLib</button>
+
+
+    
+  </div> <br> 
+
+<!--   Adding the storyArea and error messages to show up on the page after button is submitted   -->
+  <div class="story" id="storyArea">
+      
+  </div>
+
+  <div class="errorMesg" id="errors">
+    
+  </div>
+    
+  <script src="script.js"></script>
+  </body>
+</html>
